@@ -1,0 +1,13 @@
+.hoc{
+    display: flex;
+    background-color: grey;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+li{
+    color: black;
+}
+.pure{
+    background-color: orange;
+}
