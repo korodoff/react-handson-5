@@ -1,7 +1,11 @@
 import React from "react";
-import counterHOC from "./counterHOC";
+// import { useState } from 'react';
+import counterHOC from "./highcomponetoperation";
 
-const CounterClick = (props) => {
+const Counter = (props) => {
+  // const [counter,setCounter] = useState(0);
+  // const handleCounterIncrement = () => setCounter(counter+1);
+
   const { counter, handleIncrement } = props;
 
   return (
@@ -12,6 +16,6 @@ const CounterClick = (props) => {
   );
 };
 
-const EnhancedClickCounter = counterHOC(CounterClick, 2);
+const EnhancedClickCounter = counterHOC(Counter);
 
 export default EnhancedClickCounter;
