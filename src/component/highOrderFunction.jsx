@@ -1,4 +1,5 @@
 import React from "react";
+import CounterClick from "./highcomponetoperation";
 
 const HighOrderComponent = () => {
   return (
@@ -20,6 +21,7 @@ const HighOrderComponent = () => {
         <li>Reason to use Higher-Order component:</li>
         <li>Makes code more readable</li>
       </ul>
+      <CounterClick />
     </div>
   );
 };

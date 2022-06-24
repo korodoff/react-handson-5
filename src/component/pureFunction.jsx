@@ -1,4 +1,5 @@
 import React from "react";
+import ComponentPure from "./purecomponent";
 
 const PureFunction = () => {
   return (
@@ -10,7 +11,7 @@ const PureFunction = () => {
         provides the PureComponent base class. Class components that extend the
         React.PureComponent class are treated as pure components.
       </h3>
-      ;
+      <ComponentPure />
     </div>
   );
 };
